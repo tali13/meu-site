@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #221200;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: hwb(29 15% 68%);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.intro h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.skills {
+  background: hsl(23, 45%, 23%);
+  padding: 20px;
+  text-align: center;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  background: hsl(27, 99%, 26%);
+  color: #ffffff;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.projects {
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  background: #5a3b29;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: rgb(255, 255, 255);
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
